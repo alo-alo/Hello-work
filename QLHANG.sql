@@ -2,7 +2,7 @@
 CREATE TABLE [dbo].[HangXuat](
 	[MaHD] [nchar](10) NOT NULL,
 	[MaVT] [nchar](10) NOT NULL,
-	[DonGia] [money] NULL,
+	[DonGia] [money] ,
 	[SLBan] [tinyint] NULL,
  CONSTRAINT [PK_HangXuat] PRIMARY KEY CLUSTERED 
 (
